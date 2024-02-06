@@ -1,0 +1,42 @@
+html{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(45deg, blue, black);
+
+	width: 100%;
+	height: 100%;
+}
+
+div{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#Input{
+
+	display: flex;
+	flex-direction: row;
+}
+
+#colorLabel{
+
+	display: flex;
+	flex-direction: row;
+	margin-left: 7px;
+}
+
+h2{					
+
+	text-transform: uppercase;
+	font-family: cursive;
+
+}
+
+input{
+
+	padding-left:7px ;
+	margin-left: 7px;
+}
